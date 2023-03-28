@@ -1,0 +1,33 @@
+.main {
+  padding: 0.5ch;
+  background-color: rgb(36, 116, 153);
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+.main ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  gap: 2ch;
+  margin: 0
+}
+
+.main h1 {
+  color: whitesmoke;
+  font-size: larger;
+}
+
+a, a:visited {
+  color: whitesmoke;
+}
+a:hover, a:active {
+  color: rgb(252, 238, 42);
+  font-weight: 600;
+}
+
+.isActive {
+  color: rgb(252, 42, 77);
+  font-weight: 600;
+}
